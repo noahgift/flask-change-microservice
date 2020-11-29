@@ -18,6 +18,3 @@ jobs:
     - name: Test
       run: |
         make test
-    - name: Format
-      run: |
-        make format
