@@ -1,4 +1,4 @@
-flask
-pytest
-pylint
-pytest-cov
+Flask==1.1.2
+pytest==6.2.2
+pylint==2.6.2
+pytest-cov==2.11.1
