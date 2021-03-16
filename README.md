@@ -67,7 +67,13 @@ Server: Werkzeug/1.0.1 Python/3.9.0
 
 ### Requests
 
+The [Python requests library](https://requests.readthedocs.io/en/latest/user/quickstart/) allows you to invoke a request as a "one-liner" or a script.
 
+`python -c "import requests;r=requests.get('http://127.0.0.1:8080/change/1/34');print(r.json())"`
+
+Result:
+
+`[{'5': 'quarters'}, {'1': 'nickels'}, {'4': 'pennies'}]`
 
 ## Loadtest with Locust
 
