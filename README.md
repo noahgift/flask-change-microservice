@@ -20,7 +20,7 @@ Small Flask Microservice that makes change
 
 `curl http://127.0.0.1:8080/change/1/34`
 
-`
+```bash
 [
   {
     "5": "quarters"
@@ -32,15 +32,42 @@ Small Flask Microservice that makes change
     "4": "pennies"
   }
 ]
-`
+```
 ### httpie
 
 [Installation of httpie](https://httpie.io/docs#installation)
+
+`http 127.0.0.1:8080/change/1/34`
+
+```bash
+HTTP/1.0 200 OK
+Content-Length: 90
+Content-Type: application/json
+Date: Tue, 16 Mar 2021 16:49:11 GMT
+Server: Werkzeug/1.0.1 Python/3.9.0
+
+[
+    {
+        "5": "quarters"
+    },
+    {
+        "1": "nickels"
+    },
+    {
+        "4": "pennies"
+    }
+]
+```
+
 
 ### Postman
 
 [Install Postman](https://www.postman.com)
 ![postman](https://user-images.githubusercontent.com/58792/111342614-00461d00-8651-11eb-8433-d7d91d3e48b4.png)
+
+### Requests
+
+
 
 ## Loadtest with Locust
 
