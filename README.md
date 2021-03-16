@@ -77,5 +77,13 @@ Result:
 
 ## Loadtest with Locust
 
-[Install Locust](https://github.com/locustio/locust)
+* [Install Locust](https://github.com/locustio/locust)
+* Create a `locustfile.py`
+* Run loadtests
+![Screen Shot 2021-03-16 at 3 02 59 PM](https://user-images.githubusercontent.com/58792/111367175-d7328600-866a-11eb-9a4d-3429710593ea.png)
+![Screen Shot 2021-03-16 at 3 02 35 PM](https://user-images.githubusercontent.com/58792/111367176-d7328600-866a-11eb-9856-928d42e65a9a.png)
+![Screen Shot 2021-03-16 at 3 02 07 PM](https://user-images.githubusercontent.com/58792/111367177-d7cb1c80-866a-11eb-92f2-0b2aaa53503a.png)
+![Screen Shot 2021-03-16 at 3 01 22 PM](https://user-images.githubusercontent.com/58792/111367178-d7cb1c80-866a-11eb-8c29-6440a6179544.png)
+
+
 
