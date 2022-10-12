@@ -11,7 +11,7 @@ def change(amount):
     # divide the amount*100 (the amount in cents) by a coin value
     # record the number of coins that evenly divide and the remainder
     coin = coins.pop()
-    num, rem  = divmod(int(amount*100), coin)
+    num, rem  = divmod(round(amount*100), coin)
     # append the coin type and number of coins that had no remainder
     res.append({num:coin_lookup[coin]})
 
